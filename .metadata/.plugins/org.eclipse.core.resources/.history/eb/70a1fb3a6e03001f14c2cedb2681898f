@@ -1,0 +1,12 @@
+package com.javaUdemy.introToOops;
+
+public class MotorBike {
+
+	// data
+	int speed;
+
+	void start() {
+		System.out.println("Starting")
+	}
+
+}

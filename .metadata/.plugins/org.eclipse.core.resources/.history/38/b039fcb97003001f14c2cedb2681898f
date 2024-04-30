@@ -1,0 +1,6 @@
+package com.javaUdemy.introToOops;
+
+public class Book {
+	// data
+	int numberOfCopies;
+}

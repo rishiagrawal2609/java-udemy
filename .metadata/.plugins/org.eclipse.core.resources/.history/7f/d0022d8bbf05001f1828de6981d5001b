@@ -1,0 +1,19 @@
+package com.javaUdemy.premitiveDataTypes;
+
+public class CharPlay {
+	
+	private char c;
+	
+	CharPlay(char c){
+		this.c = c;
+	}
+
+	boolean isVowel() {
+		
+		if (c == 'a' | c == 'e' | c == 'i' | c == 'o' | c == 'u'| c == 'A' | c == 'E' | c == 'I' | c=='O' | c=='U') {
+			return true;
+		}
+		
+		return false;
+	}
+}

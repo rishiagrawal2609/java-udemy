@@ -1,0 +1,10 @@
+package com.javaUdemy.firstjava;
+
+public class MultplicationTable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

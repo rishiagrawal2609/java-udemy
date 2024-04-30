@@ -1,0 +1,30 @@
+package com.javaUdemy.introToOops;
+
+public class MotorBike {
+
+	// data - memberVariable
+	private int speed;
+
+	// Behavior
+	void start() {
+		System.out.println("Starting");
+	}
+
+	// Method
+
+	// -input - variable speed
+	// - Output - void
+	// - name - setSpeed
+
+	void setSpeed(int speed) {
+		this.speed = speed;
+		System.out.println(speed);
+
+	}
+
+	// getter
+	int getSpeed() {
+		return this.speed;
+	}
+
+}

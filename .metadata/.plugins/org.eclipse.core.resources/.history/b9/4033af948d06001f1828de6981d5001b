@@ -1,0 +1,10 @@
+package com.javaUdemy.conditionalstatements;
+
+public class MenuRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
