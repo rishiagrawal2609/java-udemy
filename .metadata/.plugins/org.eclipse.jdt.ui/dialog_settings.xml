@@ -8,6 +8,8 @@
 	<item key="clean_up_save_particpant_modify_dialog.preferred_height" value="1079"/>
 	<item key="clean_up_save_particpant_modify_dialog.preferred_x" value="765"/>
 	<item key="clean_up_save_particpant_modify_dialog.preferred_y" value="38"/>
+	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo.comments" value="false"/>
+	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>

@@ -6,13 +6,13 @@ public class CharPlayRunner {
 		// TODO Auto-generated method stub
 
 		CharPlay ch = new CharPlay('r');
-		// System.out.println(ch.isVowel());
+		System.out.println(ch.isVowel());
 
-		// System.out.println(ch.isNumber());
+		System.out.println(ch.isNumber());
 
-		// System.out.println(ch.isAlphabet());
+		System.out.println(ch.isAlphabet());
 
-		// System.out.println(ch.isConsonent());
+		System.out.println(ch.isConsonent());
 		CharPlay.printLowerCaseAlphabets();
 		CharPlay.printUpperCaseAlphabets();
 	}
