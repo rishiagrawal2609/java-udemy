@@ -6,8 +6,9 @@ public class Person {
 	private String email;
 	private String phno;
 
-	public Person() {
+	public Person(String name) {
 		System.out.println("Person Constructor");
+		this.name = name;
 	}
 
 	public String getName() {

@@ -7,8 +7,9 @@ public class Employee extends Person {
 	private String emplyeeGrade;
 	private int salary;
 
-	public Employee() {
-		super();
+	public Employee(String name) {
+		// super();
+		super(name);
 		System.out.println("Employee Constructor");
 	}
 
