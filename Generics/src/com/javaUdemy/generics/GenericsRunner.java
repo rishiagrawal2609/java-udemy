@@ -42,12 +42,17 @@ public class GenericsRunner {
 		list.addAll(list);
 	}
 
-	static double sumOfNumbers(List<? extends Number> numbers) {
+	static double sumOfNumbers(List<? extends Number> numbers) { // UpperBound Wiildcard
 		double sum = 0.0;
 		for (Number number : numbers) {
 			sum += number.doubleValue();
 		}
 		return sum;
+	}
+
+	static void addCoupleOfValues(List<? super Number> number) { // Lower bound whilecard
+		number.add(2);
+		number.add(3l);
 	}
 
 }
